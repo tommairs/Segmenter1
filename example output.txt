@@ -1,0 +1,56 @@
+/usr/local/bin/php /Users/stuck/PhpstormProjects/segment-the-meta/segment.php
+Array
+(
+    [logic] => and
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [0] => city
+                    [1] => ==
+                    [2] => Baltimore
+                )
+
+            [1] => Array
+                (
+                    [0] => gender
+                    [1] => !=
+                    [2] => female
+                )
+
+            [2] => Array
+                (
+                    [0] => country
+                    [1] => ==
+                    [2] => US
+                )
+
+        )
+
+)
+----------------------------------------------------------------------------------------
+Array
+(
+    [logic] => or
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [0] => city
+                    [1] => ==
+                    [2] => London
+                )
+
+            [1] => Array
+                (
+                    [0] => city
+                    [1] => ==
+                    [2] => New York
+                )
+
+        )
+
+)
+----------------------------------------------------------------------------------------
+{"recipients":[{"address":{"email":"fakespark+41@spin.vinylverb.com","name":"Fake Spark"},"metadata":{"city":"Paris","country":"France","gender":"female"},"return_path":"bounce@sp-send.deadboltemail.com","substitution_data":{"city":"Paris","country":"France","gender":"female"},"tags":["Digest"]},{"address":{"email":"fakespark+42@spin.vinylverb.com","name":"Fake Spark"},"metadata":{"city":"London","country":"England","gender":"male"},"return_path":"bounce@sp-send.deadboltemail.com","substitution_data":{"city":"London","country":"England","gender":"male"},"tags":["Flash Sale"]}]}
+Process finished with exit code 0
